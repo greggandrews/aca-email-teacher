@@ -273,7 +273,7 @@
 		#templateBody,#templateBody p{
 			/*@editable*/color:#616266;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:16px;
+			/*@editable*/font-size:14px;
       		/*@editable*/font-weight:lighter;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
@@ -533,7 +533,7 @@
 	@section Body Text
 	*/
 		#templateBody,#templateBody p{
-			/*@editable*/font-size:16px !important;
+			/*@editable*/font-size:14px !important;
 			/*@editable*/line-height:150% !important;
 		}
 
@@ -634,6 +634,7 @@
                                 </td>
                               </tr>
                           </table>
+      <!-- <td valign="top" id="templateBody"> -->
 
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 
@@ -643,12 +644,13 @@
                             <div mc:edit="body_content">
                             <!-- <h2>Welcome To Our Community</h2> -->
                               <br>
-                            <p><strong>Thank you for signing up to our monthly email newsletter!</strong><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <p><strong>Our Progress So Far</strong><br>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Pharetra convallis posuere morbi leo urna. Id eu nisl nunc mi. Faucibus turpis in eu mi. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Sit amet purus gravida quis blandit turpis cursus in hac. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Nisi vitae suscipit tellus mauris a diam maecenas sed. Scelerisque in dictum non consectetur a erat nam at lectus. Odio ut sem nulla pharetra diam sit amet. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Nunc non blandit massa enim nec dui nunc mattis enim. Dignissim suspendisse in est ante in nibh. Risus pretium quam vulputate dignissim suspendisse in est ante in. Tempor orci dapibus ultrices in iaculis nunc.</p>
                           </div>
                         </td>
                       </tr>
                       </table>
+
 
                       <!-- // END HEADER -->
                       <!-- BEGIN BODY // -->
@@ -657,8 +659,9 @@
                           <td valign="top" id="templateHeader">
                             <div mc:edit="header_laptop">
                               <!-- BEGIN MODULE: HEADER IMAGE // -->
-                              <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/580ca489-2efc-4eb0-a4ab-ae24e03b2b67.png" style="max-width:564px;" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
-       </div>
+                                      <br>
+                              <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/323b52cc-7fc8-415f-80bc-744ee0dbb939.png" style="max-width:564px;" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+                            </div>
                           </td>
                        </tr>
                       <td valign="top" id="templateBody">
@@ -673,24 +676,39 @@
                               <div mc:edit="body_content">
                                 <!-- <br>
                               <h2>Welcome To Our Community</h2> -->
-
-                              <p><strong>We Specialize In Wordpress Websites</strong><br>
+                              <p><strong>Subject</strong><br>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                              <ul>
+                                <li><strong>Goal Number One</strong></li>
+                                <li><strong>Goal Number Two</strong></li>
+                                <li><strong>Goal Number Three</strong></li>
+                                <li><strong>Goal Number Four</strong></li>
+                                <li><strong>Goal Number Five</strong></li>
+                              </ul>
                             </div>
                           </td>
                         </tr>
                         </table>
 
+
                                 <br>
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                          <tr>
+                          <!-- <tr>
                             <td>
                               <div id="learnMore">
                                 <div mc:edit="learn_more">
                                   <a href="https://wordpress.austincodingacademy.com/_book/index.html" class="utilityLink" ><h5>Web Workbook<h5></a>
                                   </div>
                                 </div>
-                            </td>
+                            </td> -->
+                            <tr>
+                              <td valign="top" id="socialBar">
+                                <div mc:edit="social_bar">
+                                  <a href="https://campus.austincodingacademy.com/login" class="utilityLink">ACA Login</a><span class="mobileHide"> &nbsp; | &nbsp; </span><a href="https://wordpress.austincodingacademy.com/_book/index.html" class="utilityLink">Web Workbook</a>
+                                  <span class="mobileHide"> &nbsp; | &nbsp; </span><a href="*|FORWARD|*" class="utilityLink">Rocket Chat</a>
+                                  </div>
+                                </td>
+                              </tr>
                           </tr>
                         </table>
                         <br>
@@ -706,14 +724,6 @@
 
                             <!-- BEGIN MODULE: STANDARD FOOTER // -->
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                              <tr>
-                                <td valign="top" id="socialBar">
-                                  <div mc:edit="social_bar">
-                                    <a href="https://campus.austincodingacademy.com/login" class="utilityLink">ACA Login</a><span class="mobileHide"> &nbsp; | &nbsp; </span><a href="https://wordpress.austincodingacademy.com/_book/index.html" class="utilityLink">Web Workbook</a>
-                                    <span class="mobileHide"> &nbsp; | &nbsp; </span><a href="*|FORWARD|*" class="utilityLink">Rocket Chat</a>
-                                    </div>
-                                  </td>
-                                </tr>
                               <tr>
                                 <td valign="top" id="footerContent">
                                   <div mc:edit="footer_content">
